@@ -5,10 +5,33 @@
     <link rel="icon" type="image/x-icon" href="/adivinanzas/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adivinanzas</title>
-    <script type="module" crossorigin src="/adivinanzas/assets/index-Df1iJ-JF.js"></script>
+    <script type="module" crossorigin src="/adivinanzas/assets/index-DwJSrX-r.js"></script>
     <link rel="stylesheet" crossorigin href="/adivinanzas/assets/index-BCrl7OgX.css">
   </head>
   <body>
     <div id="root"></div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+
+    <script>
+      function launchConfetti() {
+        confetti({
+          particleCount: 200,
+          spread: 70,
+          origin: { y: 0.6 }
+        }); 
+      }
+
+      function sadConfetti() {
+        confetti({
+          particleCount: 50,
+          angle: 90,
+          spread: 45,
+          startVelocity: 20,
+          gravity: 1,
+          origin: { y: 0 },
+          colors: ['#555', '#777', '#999']
+        });
+      }
+    </script>
   </body>
 </html>
