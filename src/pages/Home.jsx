@@ -35,6 +35,7 @@ export const Home = () => {
       if (numericGuess === targetNumber) {
         setHintText('¡Número correcto!');
         setMessage('¡Felicidades! Adivinaste el número🎉');
+        launchConfetti();
         setResult(targetNumber);
         if (score > highScore) {
           setHighScore(score);
@@ -71,6 +72,7 @@ export const Home = () => {
       setScore(score - 1);
       setHintText('');
       setMessage(`Has agotado tus intentos. El número correcto era ${ targetNumber }.`);
+      sadConfetti();
       setGameOver(true);
       setIsWinner(false);
     }

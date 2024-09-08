@@ -11,6 +11,7 @@
 - Se guarda el **puntaje más alto** obtenido durante la sesión.
 - Incluye validaciones para asegurar que las entradas del usuario sean correctas.
 - Posibilidad de reiniciar el juego para volver a intentarlo.
+- **Confetti animado** se activa cuando ganas una ronda. 🎊
 
 ## 📋 Reglas del Juego
 
@@ -47,6 +48,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu entorno local:
 - **Vite**: Herramienta de desarrollo rápido que permite una configuración mínima para proyectos React.
 - **CSS**: Estilos básicos para mejorar la apariencia del juego.
 - **GitHub Pages**: Para la publicación y despliegue del juego.
+- **Canvas Confetti**: Para animaciones de confetti en el juego.
 
 ## 🎮 Cómo Jugar
 
