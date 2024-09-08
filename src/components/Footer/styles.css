@@ -1,0 +1,23 @@
+#footer {
+    padding: 50px 0px;
+    background-color: var(--bg-footer);
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#footer #repo {
+    text-decoration: none;
+    transition: ease-out 0.2s; 
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+    color: var(--footer-color);
+}
+
+#footer #repo:hover {
+    color: var(--black-color); 
+    transition: ease-in 0.2s;   
+}

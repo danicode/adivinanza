@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url("main.css");
+@import url("../components/Form/styles.css");
+@import url("mobile.css");
+
+:root {
+    --custom-font: 'Press Start 2P', cursive;
+    --bg-winner: #56c756;
+    --bg-loser: #ef6141;
+    --bg-body: ghostwhite;
+    --primary-color: rgb(58, 58, 58);
+    --reset-color: #c24040;
+    --reset-hover-color: rgb(165, 42, 42);
+    --success-color: #009900;
+    --success-hover-color: #006900;
+    --light-gray-color: lightgray;
+    --white-color: white;
+    --box-shadow-color: #595959;
+    --grey-color: grey;
+    --footer-color: #E8EAF6;
+    --bg-footer: #607D8B;
+    --black-color: black;
+    --header-color: #0dcaf0;
+}
+
+body {
+    background-color: var(--bg-body);
+    font-family: var(--custom-font);
+    color: var(--primary-color);
+    margin: 0 auto; 
+    transition: ease-out 0.2s;
+    text-align: center;
+}
+
+.winner {
+    background-color: var(--bg-winner);
+    transition: ease-in 0.2s;
+}
+
+.loser {
+    background-color: var(--bg-loser);
+    transition: ease-in 0.2s;
+}
+
+#main #container {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,63 @@
+#form-wrapper,
+#status {
+    flex: 50%;
+}
+
+#guess-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#guess-form #guess {
+    padding: 20px 0px;
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 3px;
+    border: 1px solid var(--light-gray-color);
+    box-shadow: none;
+    text-align: center;
+    font-family: var(--custom-font);
+    margin: 0 auto 50px;
+    display: block;
+}
+
+#guess-form #guess:focus-visible {
+    outline-color: var(--grey-color);
+}
+
+button {
+    padding: 15px 15px;
+    color: var(--white-color);
+    border: none;
+    border-radius: 3px;
+    width: fit-content;
+    margin: 0 auto 20px;
+    display: block;
+    font-family: var(--custom-font);
+    transition: ease-out 0.2s;
+    box-shadow: 2px 2px 3px var(--box-shadow-color);
+}
+
+button#send {
+    background-color: var(--success-color);
+}
+
+button#reset {
+    background-color: var(--reset-color);
+    left: 5px;
+    top: 10px;
+    position: absolute;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+button#send:hover {
+    background-color: var(--success-hover-color);
+}
+
+button#reset:hover {
+    background-color: var(--reset-hover-color);
+}

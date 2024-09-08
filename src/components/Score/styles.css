@@ -1,0 +1,16 @@
+#status #hint {
+    text-align: center;
+    line-height: 1.5em;
+}
+  
+#status #hint,
+#status #scoring {
+    padding: 10px;
+    display: flex;
+    border-bottom: 1px solid var(--light-gray-color);
+}
+
+#status #scoring .points {
+    flex: 50%;    
+    padding: 16px 0;
+}

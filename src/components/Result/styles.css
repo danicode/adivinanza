@@ -1,0 +1,30 @@
+#wide-band {
+    width: 100%;
+    height: 10px;
+    background-color: var(--light-gray-color);
+    margin-bottom: 100px;
+}
+
+.result,
+#result {
+    margin: 0 auto;
+    position: absolute;    
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.result {
+    width: 100px;
+    height: 100px;
+    background-color: var(--light-gray-color);
+    border-radius: 100%;
+    top: 125px;
+}
+
+#result {    
+    top: 40px;
+    font-size: 20px;
+    text-align: center;
+}
